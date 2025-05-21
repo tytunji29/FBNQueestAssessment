@@ -220,7 +220,7 @@
         "tags": [
           "Tasks"
         ],
-        "summary": "Update A Task Status \r\nSelect Status From 0-2\r\nCall The Get TaskStatus endpoint To Get all status",
+        "summary": "Update A Task Status \r\nSelect Status From 0-2\r\nCall The Get taskstatuses endpoint To Get all status",
         "parameters": [
           {
             "name": "taskId",
@@ -253,6 +253,19 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/tasks/taskstatuses": {
+      "get": {
+        "tags": [
+          "Tasks"
+        ],
+        "summary": "Return All The Task Statuses",
         "responses": {
           "200": {
             "description": "OK"

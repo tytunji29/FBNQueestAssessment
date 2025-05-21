@@ -100,6 +100,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FBNQ.Controllers.TasksController",
+    "Method": "GetTaskStatuses",
+    "RelativePath": "tasks/taskstatuses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FBNQ.Controllers.TeamsController",
     "Method": "CreateTeam",
     "RelativePath": "teams",

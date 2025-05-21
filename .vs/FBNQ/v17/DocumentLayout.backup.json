@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\dtos\\returnobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\dtos\\returnobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\fbnq.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\fbnq.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|c:\\users\\hp elitebook 840 g2\\fbnqueestassessment\\fbnq\\fbnq.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34349CF2-7E8B-4F7E-BD70-E476FEC1DA20}|FBNQ\\FBNQ.csproj|solutionrelative:fbnq\\fbnq.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReturnObject.cs",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\DTOs\\ReturnObject.cs",
+              "RelativeDocumentMoniker": "FBNQ\\DTOs\\ReturnObject.cs",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\DTOs\\ReturnObject.cs*",
+              "RelativeToolTip": "FBNQ\\DTOs\\ReturnObject.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:21:59.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Models\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "FBNQ\\Models\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Models\\TaskStatus.cs",
+              "RelativeToolTip": "FBNQ\\Models\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:19:48.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FBNQ\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FBNQ\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:19:35.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "FBNQ\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Controllers\\TeamsController.cs*",
+              "RelativeToolTip": "FBNQ\\Controllers\\TeamsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:19:17.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "FBNQ\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Controllers\\TasksController.cs*",
+              "RelativeToolTip": "FBNQ\\Controllers\\TasksController.cs*",
+              "ViewState": "AgIAAEsAAAAAkJmZmZnZv18AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:19:11.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FBNQ\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "FBNQ\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:17:09.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FBNQ\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FBNQ\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T20:15:07.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FBNQ",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\FBNQ.csproj",
+              "RelativeDocumentMoniker": "FBNQ\\FBNQ.csproj",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\FBNQ.csproj",
+              "RelativeToolTip": "FBNQ\\FBNQ.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T20:15:05.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Program.cs",
+              "RelativeDocumentMoniker": "FBNQ\\Program.cs",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\Program.cs",
+              "RelativeToolTip": "FBNQ\\Program.cs",
+              "ViewState": "AgIAAEkAAACAMzMzMzMrwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:14:35.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FBNQ",
+              "DocumentMoniker": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\FBNQ.csproj",
+              "RelativeDocumentMoniker": "FBNQ\\FBNQ.csproj",
+              "ToolTip": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\FBNQ.csproj",
+              "RelativeToolTip": "FBNQ\\FBNQ.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T20:14:19.968Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

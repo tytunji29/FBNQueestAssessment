@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP Elitebook 840 G2\\Desktop\\TY\\FBNQuestSBSC\\FBNQ\\FBNQ\\FBNQ.csproj": {}
+    "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\FBNQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP Elitebook 840 G2\\Desktop\\TY\\FBNQuestSBSC\\FBNQ\\FBNQ\\FBNQ.csproj": {
+    "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\FBNQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP Elitebook 840 G2\\Desktop\\TY\\FBNQuestSBSC\\FBNQ\\FBNQ\\FBNQ.csproj",
+        "projectUniqueName": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\FBNQ.csproj",
         "projectName": "FBNQ",
-        "projectPath": "C:\\Users\\HP Elitebook 840 G2\\Desktop\\TY\\FBNQuestSBSC\\FBNQ\\FBNQ\\FBNQ.csproj",
+        "projectPath": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\FBNQ.csproj",
         "packagesPath": "C:\\Users\\HP Elitebook 840 G2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP Elitebook 840 G2\\Desktop\\TY\\FBNQuestSBSC\\FBNQ\\FBNQ\\obj\\",
+        "outputPath": "C:\\Users\\HP Elitebook 840 G2\\FBNQueestAssessment\\FBNQ\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

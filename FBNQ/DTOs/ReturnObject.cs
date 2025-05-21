@@ -10,6 +10,9 @@
 
     public record TeamUserDto(string UserId, string Email);
     public record TeamTaskDto(string Id, string Title, string Description);
+    public record EnumDto(int Id, string Name);
 
-    public record TaskDto(  string Id,string Title,string? Description ,DateTime DueDate,Models.TaskStatus Status, DateTime CreatedAt,string TeamName,string AssignedTo );
+
+
+    public record TaskDto(string Id, string Title, string? Description, DateTime DueDate, Models.TaskStatus Status, DateTime CreatedAt, string TeamName, string AssignedTo);
 }

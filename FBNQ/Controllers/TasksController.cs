@@ -75,7 +75,7 @@ namespace FBNQ.Controllers
         /// <summary>
         /// Update A Task Status 
         /// Select Status From 0-2
-        /// Call The Get TaskStatus endpoint To Get all status
+        /// Call The Get taskstatuses endpoint To Get all status
         /// </summary>
         /// <param name="taskId"></param>
         /// <param name="dto"></param>
@@ -92,5 +92,21 @@ namespace FBNQ.Controllers
             var task = await _taskService.UpdateTaskStatusAsync(GetUserId(), taskId, dto);
             return Ok(task);
         }
+        /// <summary>
+        /// Return All The Task Statuses
+        /// </summary>
+        /// <returns></returns>
+        // Override route to be absolute, outside of controller route prefix
+        [HttpGet("/tasks/taskstatuses")]
+        public IActionResult GetTaskStatuses()
+        {
+            var list = Enum.GetValues<Models.TaskStatus>()
+                .Select(ts => new EnumDto
+                ((int)ts,ts.ToString()))
+                .ToList();
+
+            return Ok(list);
+        }
+
     }
 }

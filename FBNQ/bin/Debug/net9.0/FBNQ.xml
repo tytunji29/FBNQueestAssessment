@@ -73,10 +73,16 @@
             <summary>
             Update A Task Status 
             Select Status From 0-2
-            Call The Get TaskStatus endpoint To Get all status
+            Call The Get taskstatuses endpoint To Get all status
             </summary>
             <param name="taskId"></param>
             <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TasksController.GetTaskStatuses">
+            <summary>
+            Return All The Task Statuses
+            </summary>
             <returns></returns>
         </member>
         <member name="M:FBNQ.Controllers.TeamsController.CreateTeam(FBNQ.DTOs.CreateTeamDto)">
