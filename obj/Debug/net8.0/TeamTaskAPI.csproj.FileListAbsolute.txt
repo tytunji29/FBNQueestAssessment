@@ -1,6 +1,0 @@
-C:\Users\HP Elitebook 840 G2\FBNQueestAssessment\obj\Debug\net8.0\TeamTaskAPI.csproj.AssemblyReference.cache
-C:\Users\HP Elitebook 840 G2\FBNQueestAssessment\obj\Debug\net8.0\TeamTaskAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\HP Elitebook 840 G2\FBNQueestAssessment\obj\Debug\net8.0\TeamTaskAPI.csproj.CoreCompileInputs.cache
-C:\Users\HP Elitebook 840 G2\FBNQueestAssessment\obj\Debug\net8.0\TeamTaskAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\HP Elitebook 840 G2\FBNQueestAssessment\obj\Debug\net8.0\TeamTaskAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\HP Elitebook 840 G2\FBNQueestAssessment\obj\Debug\net8.0\TeamTaskAPI.sourcelink.json
