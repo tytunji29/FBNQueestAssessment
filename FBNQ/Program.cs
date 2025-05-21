@@ -11,6 +11,7 @@ using FBNQ.Middleware;
 using System.Text.Json.Serialization;
 using Microsoft.Extensions.Options;
 using System.Reflection;
+using FBNQ.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,7 +30,10 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add Services and Repositories
+// Add Services and Repositories// Program.cs
+builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<TeamRepository>();
+builder.Services.AddScoped<TaskRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITeamService, TeamService>();
 builder.Services.AddScoped<ITaskService, TaskService>();

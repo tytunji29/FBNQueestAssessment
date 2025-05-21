@@ -9,42 +9,34 @@ using FBNQ.DTOs;
 using FBNQ.Models;
 using FBNQ.Services.Interfaces;
 using BCrypt.Net;
+using FBNQ.Repository;
+using Azure.Core;
 
 namespace FBNQ.Services
 {
     public class AuthService : IAuthService
     {
-        private readonly ApplicationDbContext _db;
+        private readonly UserRepository _userRepo;
         private readonly IConfiguration _config;
 
-        public AuthService(ApplicationDbContext db, IConfiguration config)
+        public AuthService(UserRepository userRepo, IConfiguration config)
         {
-            _db = db;
+            _userRepo = userRepo;
             _config = config;
         }
 
         public async Task<ReturnObject> RegisterAsync(RegisterRequest request)
         {
-            if (await _db.Users.AnyAsync(u => u.Email == request.Email))
+            var det = await _userRepo.RegisterAsync(request);
+            if(det.res=="99")
                 return new ReturnObject(false, "Email Already Exist", null);
-
-            var user = new User
-            {
-                Email = request.Email,
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password),
-                CreatedAt=DateTime.UtcNow,
-                CreatedBy="Superadmin"
-            };
-            _db.Users.Add(user);
-            await _db.SaveChangesAsync();
-
-            var token = GenerateJwtToken(user);
-            return new ReturnObject(true, "User Registered Successfully", new { token, user.Email });
+            var token = GenerateJwtToken(det.user);
+            return new ReturnObject(true, "User Registered Successfully", new { token, det.user.Email });
         }
 
         public async Task<ReturnObject> LoginAsync(LoginRequest request)
         {
-            var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
+            var user = await _userRepo.GetByEmailAsync(request.Email);
             if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
                 return new ReturnObject(true, "Invalid credentials", null);
 
@@ -54,7 +46,7 @@ namespace FBNQ.Services
 
         public async Task<User> GetByEmailAsync(string email)
         {
-            var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == email);
+            var user = await _userRepo.GetByEmailAsync(email);
             return user ?? throw new Exception("User not found");
         }
 
