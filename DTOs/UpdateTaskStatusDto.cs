@@ -2,5 +2,5 @@ using TeamTaskAPI.Models;
 
 namespace TeamTaskAPI.DTOs
 {
-    public record UpdateTaskStatusDto(TaskStatus Status);
+    public record UpdateTaskStatusDto(Models.TaskStatus Status);
 }
