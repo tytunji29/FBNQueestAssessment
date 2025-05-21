@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FBNQ</name>
+    </assembly>
+    <members>
+        <member name="M:FBNQ.Controllers.AuthController.Register(FBNQ.DTOs.RegisterRequest)">
+            <summary>
+            To Register A User
+            </summary>
+            <param name="request">
+            </param>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:FBNQ.Controllers.AuthController.Login(FBNQ.DTOs.LoginRequest)">
+            <summary>
+            To Login User
+            </summary>
+            <param name="request">
+            </param>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:FBNQ.Controllers.AuthController.Me">
+            <summary>
+            To Get Your Details From Token
+            </summary>
+            <param name="request">
+            </param>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TasksController.GetTasks(System.Guid)">
+            <summary>
+            To Get All Task Asigned To A Team
+            </summary>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TasksController.CreateTask(System.Guid,FBNQ.DTOs.CreateTaskDto)">
+            <summary>
+            Create A Task And Asign To Team
+            </summary>
+            <param name="request">
+            </param>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TasksController.UpdateTask(System.Guid,FBNQ.DTOs.UpdateTaskDto)">
+            <summary>
+            Update A Task Asigned To A Team
+            </summary>
+            <param name="request">
+            </param>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TasksController.DeleteTask(System.Guid)">
+            <summary>
+            Delete A Task
+            </summary>
+            <param name="taskId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TasksController.UpdateStatus(System.Guid,FBNQ.DTOs.UpdateTaskStatusDto)">
+            <summary>
+            Update A Task Status 
+            Select Status From 0-2
+            Call The Get TaskStatus endpoint To Get all status
+            </summary>
+            <param name="taskId"></param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TeamsController.CreateTeam(FBNQ.DTOs.CreateTeamDto)">
+            <summary>
+            Create A Team
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TeamsController.AddUser(System.Guid,FBNQ.DTOs.AddUserToTeamDto)">
+            <summary>
+            Assign A User To a Team
+            </summary>
+            <param name="teamId"></param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TeamsController.AllTeams">
+            <summary>
+            Get All Teams
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FBNQ.Controllers.TeamsController.MyTeams">
+            <summary>
+            Get All My teams Based On My token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:FBNQ.Migrations.FirstMig">
+            <inheritdoc />
+        </member>
+        <member name="M:FBNQ.Migrations.FirstMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FBNQ.Migrations.FirstMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FBNQ.Migrations.FirstMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

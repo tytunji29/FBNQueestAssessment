@@ -1,0 +1,10 @@
+@FBNQ_HostAddress = http://localhost:5048
+
+POST {{FBNQ_HostAddress}}/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "tytunji@gmail.com",
+  "password": "Omoiyatayo@01"
+}
