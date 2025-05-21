@@ -19,6 +19,10 @@ namespace FBNQ.Services
         {
             return await _db.TeamUsers.AnyAsync(tu => tu.UserId == userId && tu.TeamId == teamId);
         }
+        private async Task<bool> IsUserAnAdmin(Guid userId, Guid teamId)
+        {
+            return await _db.TeamUsers.AnyAsync(tu => tu.UserId == userId && tu.TeamId == teamId && tu.Role=="Admin");
+        }
 
         public async Task<ReturnObject> GetTasksAsync(Guid userId, Guid teamId)
         {
@@ -59,6 +63,7 @@ namespace FBNQ.Services
         {
             var task = await _db.Tasks.FindAsync(taskId) ?? throw new Exception("Task not found");
             if (!await IsUserInTeam(userId, task.TeamId)) throw new UnauthorizedAccessException();
+            if (!await IsUserAnAdmin(userId, task.TeamId)) throw new Exception("Only The Team Admin Can Update A Task");
 
             task.Title = dto.Title;
             task.Description = dto.Description;
@@ -72,6 +77,7 @@ namespace FBNQ.Services
         {
             var task = await _db.Tasks.FindAsync(taskId) ?? throw new Exception("Task not found");
             if (!await IsUserInTeam(userId, task.TeamId)) throw new UnauthorizedAccessException();
+            if (!await IsUserAnAdmin(userId, task.TeamId)) throw new Exception("Only The Team Admin Can Delete A Task");
 
             _db.Tasks.Remove(task);
             await _db.SaveChangesAsync();
@@ -82,6 +88,7 @@ namespace FBNQ.Services
         {
             var task = await _db.Tasks.FindAsync(taskId) ?? throw new Exception("Task not found");
             if (!await IsUserInTeam(userId, task.TeamId)) throw new UnauthorizedAccessException();
+            if (!await IsUserAnAdmin(userId, task.TeamId)) throw new Exception("Only The Team Admin Can Update A Task Status");
 
             task.Status = dto.Status;
             await _db.SaveChangesAsync();
